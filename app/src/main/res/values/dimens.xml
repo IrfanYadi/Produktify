@@ -1,0 +1,86 @@
+<resources>
+    <dimen name="berlangsung_aktivitas_icon_margin">15dp</dimen>
+    <dimen name="completed_aktivitas_icon_margin">15dp</dimen>
+    <dimen name="no_judul_aktivitas_berlangsung_size">16dp</dimen>
+    <dimen name="no_label_available_size">16dp</dimen>
+    <dimen name="no_judul_aktivitas_selesai_size">16dp</dimen>
+    <dimen name="floating_button_add_aktivitas_margin">20dp</dimen>
+
+    <dimen name="berlangsung_card_view_margin_top">10dp</dimen>
+    <dimen name="berlangsung_card_view_margin_bottom">3dp</dimen>
+    <dimen name="berlangsung_card_view_margin_left">10dp</dimen>
+    <dimen name="berlangsung_card_view_margin_right">10dp</dimen>
+    <dimen name="berlangsung_card_view_elevation">3dp</dimen>
+
+    <dimen name="completed_card_view_margin_top">10dp</dimen>
+    <dimen name="completed_card_view_margin_bottom">3dp</dimen>
+    <dimen name="completed_card_view_margin_left">10dp</dimen>
+    <dimen name="completed_card_view_margin_right">10dp</dimen>
+    <dimen name="completed_card_view_elevation">3dp</dimen>
+
+    <dimen name="tag_card_view_margin">5dp</dimen>
+    <dimen name="tag_card_view_elevation">3dp</dimen>
+    <dimen name="label_judul_text_size">18sp</dimen>
+
+    <dimen name="label_judul_left_margin">10dp</dimen>
+    <dimen name="label_judul_right_margin">10dp</dimen>
+    <dimen name="label_judul_top_margin">15dp</dimen>
+    <dimen name="label_judul_bottom_margin">15dp</dimen>
+    <dimen name="label_option_icon_margin_top">15dp</dimen>
+    <dimen name="label_option_icon_margin_right">15dp</dimen>
+    <dimen name="tag_dialog_linear_margin_right">15dp</dimen>
+    <dimen name="tag_dialog_linear_margin_bottom">20dp</dimen>
+    <dimen name="tag_dialog_add_margin_left">15dp</dimen>
+    <dimen name="edit_tag_dialog_add_margin_left">15dp</dimen>
+
+    <dimen name="judul_aktivitas_berlangsung_left_margin">10dp</dimen>
+    <dimen name="judul_aktivitas_berlangsung_right_margin">10dp</dimen>
+    <dimen name="judul_aktivitas_berlangsung_top_margin">10dp</dimen>
+    <dimen name="judul_aktivitas_berlangsung_bottom_margin">5dp</dimen>
+    <dimen name="judul_aktivitas_berlangsung_text_size">17sp</dimen>
+
+    <dimen name="judul_aktivitas_selesai_left_margin">10dp</dimen>
+    <dimen name="judul_aktivitas_selesai_right_margin">10dp</dimen>
+    <dimen name="judul_aktivitas_selesai_top_margin">10dp</dimen>
+    <dimen name="judul_aktivitas_selesai_bottom_margin">5dp</dimen>
+    <dimen name="judul_aktivitas_selesai_text_size">17sp</dimen>
+
+    <dimen name="konten_aktivitas_berlangsung_left_margin">10dp</dimen>
+    <dimen name="konten_aktivitas_berlangsung_right_margin">10dp</dimen>
+    <dimen name="konten_aktivitas_berlangsung_bottom_margin">6dp</dimen>
+    <dimen name="konten_aktivitas_berlangsung_text_size">13sp</dimen>
+    <dimen name="add_new_aktivitas_dialog_title_padding">15dp</dimen>
+
+    <dimen name="konten_aktivitas_selesai_left_margin">10dp</dimen>
+    <dimen name="konten_aktivitas_selesai_right_margin">10dp</dimen>
+    <dimen name="konten_aktivitas_selesai_bottom_margin">6dp</dimen>
+    <dimen name="konten_aktivitas_selesai_text_size">13sp</dimen>
+    <dimen name="completd_to_img_margin_right">20dp</dimen>
+
+    <dimen name="berlangsung_aktivitas_info_section_margin_left">10dp</dimen>
+    <dimen name="berlangsung_aktivitas_info_section_margin_right">10dp</dimen>
+    <dimen name="berlangsung_aktivitas_info_section_bottom_margin">10dp</dimen>
+
+    <dimen name="completed_aktivitas_info_section_margin_left">10dp</dimen>
+    <dimen name="completed_aktivitas_info_section_margin_right">10dp</dimen>
+    <dimen name="completed_aktivitas_info_section_bottom_margin">10dp</dimen>
+
+    <dimen name="aktivitas_info_section_text_size">12sp</dimen>
+    <dimen name="aktivitas_info_section_margin_right">12dp</dimen>
+
+    <dimen name="aktivitas_option_margin_right">15dp</dimen>
+    <dimen name="aktivitas_option_margin_top">30dp</dimen>
+    <dimen name="new_aktivitas_container_padding">10dp</dimen>
+    <dimen name="aktivitas_dialog_linear_margin_right">15dp</dimen>
+    <dimen name="aktivitas_dialog_linear_margin_top">15dp</dimen>
+    <dimen name="aktivitas_dialog_linear_margin_bottom">20dp</dimen>
+
+    <dimen name="drawable_input_padding">15dp</dimen>
+    <dimen name="input_padding">15dp</dimen>
+
+    <dimen name="new_tag_dialog_container_margin">15dp</dimen>
+    <dimen name="edit_tag_dialog_container_margin">15dp</dimen>
+    <dimen name="add_new_tag_dialog_title_padding">15dp</dimen>
+    <dimen name="edit_label_dialog_title_padding">15dp</dimen>
+    <dimen name="aktivitas_dialog_add_margin_left">15dp</dimen>
+</resources>

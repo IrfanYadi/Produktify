@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="@dimen/berlangsung_card_view_margin_left"
+        android:layout_marginRight="@dimen/berlangsung_card_view_margin_right"
+        android:layout_marginTop="@dimen/berlangsung_card_view_margin_top"
+        android:layout_marginBottom="@dimen/berlangsung_card_view_margin_bottom"
+        android:elevation="@dimen/berlangsung_card_view_elevation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/each_berlangsung_aktivitas_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/judul_aktivitas_berlangsung"
+                android:text="@string/berlangsung_aktivitas_demo_title"
+                android:textSize="@dimen/judul_aktivitas_berlangsung_text_size"
+                android:layout_marginLeft="@dimen/judul_aktivitas_berlangsung_left_margin"
+                android:layout_marginBottom="@dimen/judul_aktivitas_berlangsung_bottom_margin"
+                android:layout_marginRight="@dimen/judul_aktivitas_berlangsung_right_margin"
+                android:layout_marginTop="@dimen/judul_aktivitas_berlangsung_top_margin"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/konten_aktivitas_berlangsung"
+                android:text="@string/berlangsung_aktivitas_demo_content"
+                android:layout_marginLeft="@dimen/konten_aktivitas_berlangsung_left_margin"
+                android:layout_marginBottom="@dimen/konten_aktivitas_berlangsung_bottom_margin"
+                android:layout_marginRight="@dimen/konten_aktivitas_berlangsung_right_margin"
+                android:layout_below="@+id/judul_aktivitas_berlangsung"
+                android:textSize="@dimen/konten_aktivitas_berlangsung_text_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/aktivitas_option_margin_right"
+                android:layout_marginTop="@dimen/aktivitas_option_margin_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/make_completed"
+                    android:src="@drawable/ic_done_aktivitas"
+                    android:layout_marginRight="@dimen/completd_to_img_margin_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/option"
+                    android:src="@drawable/ic_aktivitas_options"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/berlangsung_aktivitas_info_section_margin_left"
+                android:layout_marginRight="@dimen/berlangsung_aktivitas_info_section_margin_right"
+                android:layout_marginBottom="@dimen/berlangsung_aktivitas_info_section_bottom_margin"
+                android:layout_below="@+id/konten_aktivitas_berlangsung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/label_aktivitas"
+                    android:text="@string/aktivitas_info_demo_label_text"
+                    android:textSize="@dimen/aktivitas_info_section_text_size"
+                    android:layout_marginRight="@dimen/aktivitas_info_section_text_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/aktivitas_date"
+                    android:text="@string/aktivitas_info_demo_date_text"
+                    android:textSize="@dimen/aktivitas_info_section_text_size"
+                    android:layout_marginRight="@dimen/aktivitas_info_section_margin_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/aktivitas_time"
+                    android:text="@string/aktivitas_info_demo_time_from_text"
+                    android:textSize="@dimen/aktivitas_info_section_text_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

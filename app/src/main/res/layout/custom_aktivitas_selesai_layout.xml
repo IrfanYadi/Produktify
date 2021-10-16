@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="@dimen/completed_card_view_margin_left"
+        android:layout_marginRight="@dimen/completed_card_view_margin_right"
+        android:layout_marginTop="@dimen/completed_card_view_margin_top"
+        android:layout_marginBottom="@dimen/completed_card_view_margin_bottom"
+        android:elevation="@dimen/completed_card_view_elevation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/each_completed_aktivitas_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/judul_aktivitas_selesai"
+                android:text="@string/completed_aktivitas_demo_title"
+                android:textSize="@dimen/judul_aktivitas_selesai_text_size"
+                android:layout_marginLeft="@dimen/judul_aktivitas_selesai_left_margin"
+                android:layout_marginBottom="@dimen/judul_aktivitas_selesai_bottom_margin"
+                android:layout_marginRight="@dimen/judul_aktivitas_selesai_right_margin"
+                android:layout_marginTop="@dimen/judul_aktivitas_selesai_top_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/konten_aktivitas_selesai"
+                android:text="@string/completed_aktivitas_demo_content"
+                android:layout_marginLeft="@dimen/konten_aktivitas_selesai_left_margin"
+                android:layout_marginBottom="@dimen/konten_aktivitas_selesai_bottom_margin"
+                android:layout_marginRight="@dimen/konten_aktivitas_selesai_right_margin"
+                android:layout_below="@+id/judul_aktivitas_selesai"
+                android:textSize="@dimen/konten_aktivitas_selesai_text_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/completed_aktivitas_info_section_margin_left"
+                android:layout_marginRight="@dimen/completed_aktivitas_info_section_margin_right"
+                android:layout_marginBottom="@dimen/completed_aktivitas_info_section_bottom_margin"
+                android:layout_below="@+id/konten_aktivitas_selesai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/label_aktivitas"
+                    android:text="@string/aktivitas_info_demo_label_text"
+                    android:textSize="@dimen/aktivitas_info_section_text_size"
+                    android:layout_marginRight="@dimen/aktivitas_info_section_text_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/aktivitas_date"
+                    android:text="@string/aktivitas_info_demo_date_text"
+                    android:textSize="@dimen/aktivitas_info_section_text_size"
+                    android:layout_marginRight="@dimen/aktivitas_info_section_margin_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/aktivitas_time"
+                    android:text="@string/aktivitas_info_demo_time_from_text"
+                    android:textSize="@dimen/aktivitas_info_section_text_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

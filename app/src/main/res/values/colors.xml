@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0e0e0e</color>
+    <color name="colorPrimaryDark">#0e0e0e</color>
+    <color name="colorAccent">#bf961a</color>
+
+    <color name="colorPrimaryHijau">#16a085</color>
+    <color name="colorPrimaryDarkHijau">#1abc9c</color>
+    <color name="colorAccentHijau">#16a085</color>
+
+    <color name="colorPrimaryMerah">#c0392b</color>
+    <color name="colorPrimaryDarkMerah">#e74c3c</color>
+    <color name="colorAccentMerah">#c0392b</color>
+
+    <color name="colorPrimaryBiru">#444bad</color>
+    <color name="colorPrimaryDarkBiru">#5e59b6</color>
+    <color name="colorAccentBiru">#4444ad</color>
+
+    <color name="ic_berlangsung_aktivitas_judul_color">#999999</color>
+    <color name="ic_completed_aktivitas_judul_color">#999999</color>
+    <color name="ic_label_available_color">#999999</color>
+</resources>

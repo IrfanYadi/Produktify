@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Umum">
+
+        <ListPreference
+            android:title="Tema Aplikasi"
+            android:icon="@drawable/ic_tema_aplikasi"
+            android:key="tema_aplikasi"
+            android:entries="@array/theme_names"
+            android:entryValues="@array/theme_values"
+            android:selectable="true"
+            android:defaultValue="Default"
+            android:summary="ubah tema aplikasi"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_category_title_about">
+
+        <Preference
+            android:title="Pengembang"
+            android:icon="@drawable/ic_aplikasi_dikembangkan_oleh"
+            android:summary="Irfan Yadi\nMohammed Zyad Zayd Al Shurafa\nMohammed Raihan Akbar"/>
+
+        <Preference
+            android:title="Versi Aplikasi"
+            android:icon="@drawable/ic_versi_aplikasi"
+            android:summary="UTS"/>
+    </PreferenceCategory>
+</PreferenceScreen>
