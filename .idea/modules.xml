@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Project-TAM.iml" filepath="$PROJECT_DIR$/.idea/modules/Project-TAM.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Project-TAM.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Project-TAM.app.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Produktify_-_UTS.iml" filepath="$PROJECT_DIR$/.idea/modules/Produktify_-_UTS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Produktify_-_UTS.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Produktify_-_UTS.app.iml" />
+>>>>>>> 4dcd45f81950c4642ee3f4cbf9551651db673a57
     </modules>
   </component>
 </project>
