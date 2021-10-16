@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/layout/activity_aktivitas_selesai.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/layout/activity_all_label.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/layout/custom_aktivitas_berlangsung_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/layout/custom_aktivitas_selesai_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/layout/custom_semua_label_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/layout/dialog_tambah_aktivitas_baru.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/layout/dialog_ubah_aktivitas.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/layout/dialog_ubah_label.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/layout/tambah_dialog_label_baru.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/menu/navigation_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/menu/opsi_aktivitas_berlangsung.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/menu/opsi_aktivitas_selesai.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/menu/tampilkan_opsi_label.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/menu/ubah_hapus_aktivitas_options.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/menu/ubah_hapus_label_option.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify - UAS/app/src/main/res/xml/preferensi_aplikasi.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify/app/src/main/res/menu/navigation_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify/app/src/main/res/menu/todo_edit_del_options.xml" value="0.209375" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/Raihan/Downloads/Produktify/app/src/main/res/xml/app_preferences.xml" value="0.12771739130434784" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

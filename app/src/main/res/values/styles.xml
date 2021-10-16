@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="HijauTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryHijau</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkHijau</item>
+        <item name="colorAccent">@color/colorAccentHijau</item>
+    </style>
+
+    <style name="MerahTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryMerah</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkMerah</item>
+        <item name="colorAccent">@color/colorAccentMerah</item>
+    </style>
+
+    <style name="BiruTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryBiru</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBiru</item>
+        <item name="colorAccent">@color/colorAccentBiru</item>
+    </style>
+
+</resources>

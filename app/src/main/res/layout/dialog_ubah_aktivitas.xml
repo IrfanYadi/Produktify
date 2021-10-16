@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/judul_dialog_ubah_aktivitas"
+            android:text="@string/edit_aktivitas_dialog_title"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/add_new_aktivitas_dialog_title_padding"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="@dimen/new_aktivitas_container_padding"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/judul_aktivitas"
+                    android:drawableLeft="@drawable/ic_tambah_judul_aktivitas_baru"
+                    android:drawablePadding="@dimen/drawable_input_padding"
+                    android:padding="@dimen/input_padding"
+                    android:hint="@string/aktivitas_judul_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/konten_aktivitas"
+                    android:drawableLeft="@drawable/ic_tambah_konten_aktivitas_baru"
+                    android:drawablePadding="@dimen/drawable_input_padding"
+                    android:padding="@dimen/input_padding"
+                    android:hint="@string/aktivitas_konten_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </android.support.design.widget.TextInputLayout>
+            <Spinner
+                android:id="@+id/label_aktivitas"
+                android:padding="@dimen/input_padding"
+                android:foregroundTint="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/aktivitas_date"
+                    android:drawableLeft="@drawable/ic_tambah_date_aktivitas_baru"
+                    android:drawablePadding="@dimen/drawable_input_padding"
+                    android:padding="@dimen/input_padding"
+                    android:hint="@string/aktivitas_date_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/aktivitas_time"
+                    android:drawableLeft="@drawable/ic_tambah_date_aktivitas_baru"
+                    android:drawablePadding="@dimen/drawable_input_padding"
+                    android:padding="@dimen/input_padding"
+                    android:hint="@string/aktivitas_time_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </android.support.design.widget.TextInputLayout>
+            <LinearLayout
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/aktivitas_dialog_linear_margin_right"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/aktivitas_dialog_linear_margin_top"
+                android:layout_marginBottom="@dimen/aktivitas_dialog_linear_margin_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/batal"
+                    android:text="@string/add_aktivitas_dialog_batal_text"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tambah_aktivitas_baru"
+                    android:layout_marginLeft="@dimen/aktivitas_dialog_add_margin_left"
+                    android:text="@string/save_aktivitas_dialog_title"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/cari"
+        android:title="@string/option_berlangsung_search_text"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/semua_label"
+        android:title="@string/option_all_label_text"
+        android:icon="@drawable/ic_show_all_label"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/selesai"
+        android:title="@string/option_berlangsung_completed_text"
+        android:icon="@drawable/ic_playlist_white_add_check"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/settings"
+        android:title="@string/option_berlangsung_settings_text"
+        android:icon="@drawable/ic_white_settings"
+        app:showAsAction="always"/>
+</menu>

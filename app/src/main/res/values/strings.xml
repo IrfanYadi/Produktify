@@ -1,0 +1,99 @@
+<resources>
+    <string name="nama_aplikasi">Produktify</string>
+    <string name="navigation_drawer_open">Buka drawer navigasi</string>
+    <string name="navigation_drawer_close">Tutup drawer navigasi</string>
+    <string name="judul_aplikasi">Produktify</string>
+    <string name="complete_aktivitas_activity_title">Aktivitas selesai</string>
+    <string name="all_label_title">Label</string>
+    <string name="settings_title">Pengaturan</string>
+
+    <string name="nav_berlangsung_aktivitas_text">Berlangsung</string>
+    <string name="nav_completed_aktivitas_text">Selesai</string>
+    <string name="nav_label_text">Label</string>
+    <string name="nav_settings_text">Pengaturan</string>
+
+    <string name="no_berlangsung_aktivitas_text">Aktivitas berlangsung kosong</string>
+    <string name="berlangsung_aktivitas_demo_title">Judul demo aktivitas berlangsung</string>
+    <string name="berlangsung_aktivitas_demo_content">Isi demo aktivitas berlangsung</string>
+    <string name="label_judul_demo_text">Judul label demo</string>
+
+    <string name="completed_aktivitas_demo_title">Judul demo aktivitas selesai</string>
+    <string name="completed_aktivitas_demo_content">Isi demo aktivitas selesai</string>
+
+    <string name="aktivitas_info_demo_label_text">Programming</string>
+    <string name="aktivitas_info_demo_date_text">7 Oct, 2021</string>
+    <string name="aktivitas_info_demo_time_from_text">02:13 PM</string>
+
+    <string name="no_completed_aktivitas_text"></string>
+    <string name="no_label_available_text">Label kosong</string>
+
+    <string name="option_completed_search_text">Cari</string>
+    <string name="option_completed_delete_text">Hapus semua</string>
+    <string name="option_completed_settings_text">Pengaturan</string>
+
+    <string name="option_label_search_text">Cari</string>
+    <string name="option_label_settings_text">Pengaturan</string>
+    <string name="option_save_aktivitas_text">Simpan Aktivitas</string>
+    <string name="option_label_edit_text">Ubah</string>
+    <string name="option_label_del_text">Hapus</string>
+
+    <string name="option_berlangsung_search_text">Cari</string>
+    <string name="option_berlangsung_completed_text">Aktivitas Selesai</string>
+    <string name="option_berlangsung_settings_text">Pengaturan</string>
+    <string name="option_all_label_text">Semua Label</string>
+
+    <string name="add_aktivitas_dialog_title">Tambahkan Aktivitas Baru</string>
+    <string name="save_aktivitas_dialog_title">Simpan Aktivitas</string>
+    <string name="edit_aktivitas_dialog_title">Ubah Aktivitas</string>
+    <string name="aktivitas_judul_hint">Tambahkan judul aktivitas</string>
+    <string name="aktivitas_konten_hint">Tambahkan isi aktivitas</string>
+    <string name="aktivitas_date_hint">Tambahkan tanggal aktivitas</string>
+    <string name="aktivitas_time_hint">Tambahkan waktu aktivitas</string>
+    <string name="add_aktivitas_dialog_positive_text">Tambahkan Aktivitas Baru</string>
+    <string name="add_aktivitas_dialog_batal_text">Batalkan</string>
+    <string name="aktivitas_judul_add_success_msg">Aktivitas berhasil ditambahkan!</string>
+
+    <string name="add_label_dialog_title">Tambahkan Label Baru</string>
+    <string name="edit_label_dialog_title">Ubah Label</string>
+    <string name="add_label_dialog_positive_text">Tambahkan Label Baru</string>
+    <string name="edit_label_dialog_positive_text">Simpan</string>
+    <string name="add_label_dialog_batal_text">Batalkan</string>
+    <string name="add_label_text_text_color_text">Warna Teks Label</string>
+    <string name="add_label_text_background_color_text">Warna Background Label</string>
+    <string name="label_judul_add_success_msg">Label berhasil ditambahkan!</string>
+    <string name="label_delete_dialog_title">Hapus Label</string>
+    <string name="judul_hapus_dialog_msg">Jika Anda hapus maka aktivitas anda yang terasosiasi dengan label ini juga akan terhapus. Hapus?</string>
+    <string name="label_delete_batal">Batalkan</string>
+    <string name="label_delete_yes">Hapus</string>
+    <string name="label_deleted_success">Label berhasil dihapus!</string>
+    <string name="label_no_delete">Label tidak dihapus!</string>
+    <string name="edit_label_dialog_batal_text">Batalkan</string>
+    <string name="label_edit_yes">Simpan</string>
+    <string name="label_edit_batal">Batalkan</string>
+    <string name="label_saved_success">Label berhasil disimpan!</string>
+    <string name="label_no_save">Label tidak diubah!</string>
+    <string name="label_create_dialog_title_text">Buat Label</string>
+    <string name="label_di_db_kosong_text">Tidak ada label di database. Anda harus membuat label terlebih dahulu untuk melanjutkan.</string>
+    <string name="create_new_label">Buat Label Baru</string>
+
+
+    <string name="label_judul_hint">Masukkan judul label</string>
+    <string name="edit_label_judul_hint">Masukkan judul label baru</string>
+    <string name="pref_category_title_about">Informasi Pengembang</string>
+
+
+    <string-array name="theme_names">
+        <item>Default</item>
+        <item>Hijau</item>
+        <item>Merah</item>
+        <item>Biru</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>Default</item>
+        <item>Hijau</item>
+        <item>Merah</item>
+        <item>Biru</item>
+    </string-array>
+
+</resources>
