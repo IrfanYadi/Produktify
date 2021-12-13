@@ -1,22 +1,16 @@
 package com.unila.ilkomp.produktify.activities;
 
-<<<<<<< HEAD
 import android.content.Context;
 import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AlertDialog;
-=======
-import android.content.Intent;
-import android.support.design.widget.FloatingActionButton;
->>>>>>> ee5d9e587fa11f5831bdd5c6b10fb4205dd785db
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
-<<<<<<< HEAD
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -41,19 +35,6 @@ public class SemuaLabel extends AppCompatActivity implements View.OnClickListene
     private FloatingActionButton fabTambahLabel;
     private LabelDBHelper labelDBHelper;
     private LinearLayout linearLayout;
-=======
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-
-import com.unila.ilkomp.produktify.R;
-import com.unila.ilkomp.produktify.helpers.PengaturanHelper;
-
-public class SemuaLabel extends AppCompatActivity implements View.OnClickListener{
-    private RecyclerView semuaLabel;
-    private LinearLayoutManager linearLayoutManager;
-    private FloatingActionButton fabTambahLabel;
->>>>>>> ee5d9e587fa11f5831bdd5c6b10fb4205dd785db
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,7 +50,6 @@ public class SemuaLabel extends AppCompatActivity implements View.OnClickListene
 
     private void muatLabel(){
         semuaLabel =(RecyclerView)findViewById(R.id.tampilkanSemuaLabel);
-<<<<<<< HEAD
         linearLayout=(LinearLayout)findViewById(R.id.label_kosong);
         labelDBHelper =new LabelDBHelper(this);
         if(labelDBHelper.countLabel()==0){
@@ -84,9 +64,6 @@ public class SemuaLabel extends AppCompatActivity implements View.OnClickListene
         }
         linearLayoutManager=new LinearLayoutManager(this);
         semuaLabel.setAdapter(labelAdapter);
-=======
-        linearLayoutManager=new LinearLayoutManager(this);
->>>>>>> ee5d9e587fa11f5831bdd5c6b10fb4205dd785db
         semuaLabel.setLayoutManager(linearLayoutManager);
         fabTambahLabel =(FloatingActionButton)findViewById(R.id.fabTambahLabel);
         fabTambahLabel.setOnClickListener(this);
@@ -94,15 +71,11 @@ public class SemuaLabel extends AppCompatActivity implements View.OnClickListene
 
     @Override
     public void onClick(View view) {
-<<<<<<< HEAD
         switch (view.getId()){
             case R.id.fabTambahLabel:
                 tampilkanDialogLabelBaru();
                 break;
         }
-=======
-
->>>>>>> ee5d9e587fa11f5831bdd5c6b10fb4205dd785db
     }
 
     @Override
@@ -118,7 +91,6 @@ public class SemuaLabel extends AppCompatActivity implements View.OnClickListene
 
             @Override
             public boolean onQueryTextChange(String newText) {
-<<<<<<< HEAD
                 newText=newText.toLowerCase();
                 ArrayList<LabelModel> newLabelModels =new ArrayList<>();
                 for(LabelModel labelModel : labelModels){
@@ -129,8 +101,6 @@ public class SemuaLabel extends AppCompatActivity implements View.OnClickListene
                 }
                 labelAdapter.filterLabel(newLabelModels);
                 labelAdapter.notifyDataSetChanged();
-=======
->>>>>>> ee5d9e587fa11f5831bdd5c6b10fb4205dd785db
                 return false;
             }
         });
@@ -149,7 +119,6 @@ public class SemuaLabel extends AppCompatActivity implements View.OnClickListene
                 return super.onOptionsItemSelected(item);
         }
     }
-<<<<<<< HEAD
 
     private void tampilkanDialogLabelBaru(){
         final AlertDialog.Builder builder=new AlertDialog.Builder(this);
@@ -190,6 +159,4 @@ public class SemuaLabel extends AppCompatActivity implements View.OnClickListene
         });
         builder.create().show();
     }
-=======
->>>>>>> ee5d9e587fa11f5831bdd5c6b10fb4205dd785db
 }

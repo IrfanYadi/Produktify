@@ -5,16 +5,12 @@ import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-<<<<<<< HEAD
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-=======
->>>>>>> ee5d9e587fa11f5831bdd5c6b10fb4205dd785db
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-<<<<<<< HEAD
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -34,14 +30,6 @@ public class AktivitasSelesai extends AppCompatActivity {
     private AktivitasSelesaiAdapter aktivitasSelesaiAdapter;
     private LinearLayout linearLayout;
     private AktivitasDBHelper aktivitasDBHelper;
-=======
-import android.widget.Toast;
-
-import com.unila.ilkomp.produktify.R;
-import com.unila.ilkomp.produktify.helpers.PengaturanHelper;
-
-public class AktivitasSelesai extends AppCompatActivity {
->>>>>>> ee5d9e587fa11f5831bdd5c6b10fb4205dd785db
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,7 +44,6 @@ public class AktivitasSelesai extends AppCompatActivity {
     }
 
     private void loadAktivitasSelesai(){
-<<<<<<< HEAD
         aktivitasSelesai =(RecyclerView)findViewById(R.id.aktivitas_selesai_view);
         aktivitasDBHelper =new AktivitasDBHelper(this);
         linearLayout=(LinearLayout)findViewById(R.id.aktivitas_kosong_section) ;
@@ -73,9 +60,6 @@ public class AktivitasSelesai extends AppCompatActivity {
         linearLayoutManager=new LinearLayoutManager(this);
         aktivitasSelesai.setAdapter(aktivitasSelesaiAdapter);
         aktivitasSelesai.setLayoutManager(linearLayoutManager);
-=======
-
->>>>>>> ee5d9e587fa11f5831bdd5c6b10fb4205dd785db
     }
 
     @Override
@@ -91,7 +75,6 @@ public class AktivitasSelesai extends AppCompatActivity {
 
             @Override
             public boolean onQueryTextChange(String newText) {
-<<<<<<< HEAD
                 newText=newText.toLowerCase();
                 ArrayList<AktivitasSelesaiModel> newAktivitasSelesaiModels =new ArrayList<>();
                 for(AktivitasSelesaiModel aktivitasSelesaiModel : aktivitasSelesaiModels){
@@ -105,8 +88,6 @@ public class AktivitasSelesai extends AppCompatActivity {
                 }
                 aktivitasSelesaiAdapter.filterAktivitasSelesai(newAktivitasSelesaiModels);
                 aktivitasSelesaiAdapter.notifyDataSetChanged();
-=======
->>>>>>> ee5d9e587fa11f5831bdd5c6b10fb4205dd785db
                 return true;
             }
         });
@@ -136,14 +117,10 @@ public class AktivitasSelesai extends AppCompatActivity {
         builder.setPositiveButton("Hapus Semua", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-<<<<<<< HEAD
                 if(aktivitasDBHelper.removeAktivitasSelesai()){
                     startActivity(new Intent(AktivitasSelesai.this, AktivitasSelesai.class));
                     Toast.makeText(AktivitasSelesai.this, "Semua aktivitas selesai berhasil dihapus!", Toast.LENGTH_SHORT).show();
                 }
-=======
-
->>>>>>> ee5d9e587fa11f5831bdd5c6b10fb4205dd785db
             }
         }).setNegativeButton("Batalkan", new DialogInterface.OnClickListener() {
             @Override
