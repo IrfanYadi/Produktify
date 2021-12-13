@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Produktify_-_UTS.iml" filepath="$PROJECT_DIR$/.idea/modules/Produktify_-_UTS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Produktify_-_UTS.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Produktify_-_UTS.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Produktify_-_UAS.iml" filepath="$PROJECT_DIR$/.idea/modules/Produktify_-_UAS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Produktify_-_UAS.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Produktify_-_UAS.app.iml" />
     </modules>
   </component>
 </project>

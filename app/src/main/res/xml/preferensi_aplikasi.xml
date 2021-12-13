@@ -24,6 +24,6 @@
         <Preference
             android:title="Versi Aplikasi"
             android:icon="@drawable/ic_versi_aplikasi"
-            android:summary="UTS"/>
+            android:summary="UAS"/>
     </PreferenceCategory>
 </PreferenceScreen>

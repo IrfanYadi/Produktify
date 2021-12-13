@@ -24,7 +24,7 @@
     <string name="aktivitas_info_demo_date_text">7 Oct, 2021</string>
     <string name="aktivitas_info_demo_time_from_text">02:13 PM</string>
 
-    <string name="no_completed_aktivitas_text"></string>
+    <string name="no_completed_aktivitas_text">Aktivitas selesai kosong</string>
     <string name="no_label_available_text">Label kosong</string>
 
     <string name="option_completed_search_text">Cari</string>
